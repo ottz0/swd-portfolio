@@ -1,0 +1,19 @@
+#contact{
+	background-image: url("../img/bg-argyle.png");
+	background-repeat: repeat;
+}
+
+#contact{
+	h1{
+		color:$swd-yellow;
+	}
+}
+
+#contact-strip{
+	@extend .header-strip;
+	width:50%;
+}
+
+#contact-wrap{
+	padding-bottom:65px;
+}

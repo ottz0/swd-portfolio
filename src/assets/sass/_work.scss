@@ -1,0 +1,41 @@
+#work{
+	background-image: url("../img/bg-dark-wood.jpg");
+	background-repeat: repeat;
+	//background-size: cover;
+}
+
+div#work-header h1{
+	color:$swd-yellow;
+}
+
+#work-thumb-group{
+	padding-bottom:30px;
+}
+
+.work-group{
+	h3{
+		font-weight:bold;
+	}
+}
+
+.work-img {
+    max-width:98%;
+    padding:2%; /* A percentage that, when doubled and added to the above, makes 100%. */
+    background:#0e0e0e; /* Color of the faux border. */
+}
+
+.swd-work-fig{
+	h3{
+		padding-top:15%;
+		margin-bottom:-15px;
+	}
+}
+
+#work-strip{
+	@extend .header-strip;
+	width:30%;
+}
+
+#work-form-group{
+	padding-top:25px;
+}

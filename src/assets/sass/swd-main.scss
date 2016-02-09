@@ -1,0 +1,36 @@
+/***************************
+
+Due to the way Sass is parsing code, 
+it is needed that you include 
+uikit-mixins.scss first then add your 
+customizations (hooks, variables) and 
+finally UIkit and additional components.
+
+***************************/
+
+@import "../libs/uikit/scss/uikit-mixins.scss";
+
+// // UIkit scss
+@import "../libs/uikit/scss/uikit.scss";
+@import "../libs/uikit/scss/components/sticky.scss";
+@import "../libs/uikit/scss/components/tooltip.scss";
+
+// // your custom code goes here, e.g. mixins, variables
+@import "swd-variables.scss";
+@import "swd-theme.scss";
+@import "uikit-overrides.scss";
+@import "nav";
+@import "work";
+@import "contact";
+@import "skills-tools";
+
+
+
+
+
+
+
+
+
+
+

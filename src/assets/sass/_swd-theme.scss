@@ -1,0 +1,126 @@
+body {
+    overflow: hidden;
+}
+
+/* Preloader */
+
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#000000; /* change if the mask should have another color then white */
+    z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url("../img/status.gif"); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
+
+@font-face {
+	font-family: 'Neo-med';
+	src: url('../fonts/Neo Sans Std Medium.eot');
+	src: local('☺'), url('../fonts/Neo Sans Std Medium.woff') format('woff'), url('../fonts/Neo Sans Std Medium.ttf') format('truetype'), url('../fonts/Neo Sans Std Medium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Neo-reg';
+	src: url('../fonts/Neo Sans Std Regular.eot');
+	src: local('☺'), url('../fonts/Neo Sans Std Regular.woff') format('woff'), url('../fonts/Neo Sans Std Regular.ttf') format('truetype'), url('../fonts/Neo Sans Std Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.pt-reg{
+	font-family: 'Neo-reg', Arial, sans-serif;
+}
+
+#main{
+	height: 100vh;
+}
+
+#work, #contact, #skills-tools{
+	height: 100%;
+}
+
+.uk-cover-background{
+	background-image: url("../img/swd-cover.jpg");
+	background-position: left top;
+}
+
+.header-group p{
+	padding-top:15px;
+	margin-bottom:-8px;
+}
+
+.swd-white{
+	color:#fff;
+}
+
+.header-strip{
+	height:4px;
+	background-color:$swd-yellow;
+	margin: 0 auto;
+	margin-bottom:8px;
+}
+
+footer{
+	background-color:$swd-yellow;
+	text-align:center;
+	color:#8f5f26;
+	
+	a:link {
+	    color: #8f5f26;
+	}
+	a:visited {
+	    color: #8f5f26;
+	}
+	a:hover {
+	    color: #8f5f26;
+	}
+	a:active {
+	    color: #8f5f26;
+	}
+
+	ul{
+		margin-top:-6px;
+		font-size:1.1em;
+	}
+	li{
+		display:inline;
+		padding:0 8px 0 8px;
+	}
+	p{
+		margin-top:-12px;
+		font-size:0.9em;
+	}
+}
+
+#footer-logo{
+	width: 50%;
+	margin: 0 auto;
+	text-align:center;
+	margin-top:-45px;
+}
+
+
+.cc{
+	background-color:red;
+}
+
+.swd-outline{
+	border: 2px solid red;
+}
+
+
