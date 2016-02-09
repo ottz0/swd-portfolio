@@ -21,7 +21,7 @@
                                 <p>Project - Website</p>
                                 <button class="uk-button uk-button-primary">View project</button>
                             </div>
-                            <a class="uk-position-cover" href="http://portfolio.stevenwatsondesigns.com" target="_blank"></a>
+                            <a class="uk-position-cover" href="http://portfolio.stevenwatsondesigns.com/ach.php" target="_blank"></a>
                         </figure>
                     </div><!-- //Work ach-->
                     
@@ -34,7 +34,7 @@
                                 <p>Project - Website</p>
                                 <button class="uk-button uk-button-primary">View project</button>
                             </div>
-                            <a class="uk-position-cover" href="http://portfolio.stevenwatsondesigns.com/renfrew.php" target="_blank"></a>
+                            <a class="uk-position-cover" href="http://portfolio.stevenwatsondesigns.com/index.php" target="_blank"></a>
                         </figure>
                     </div><!-- //Work ren-->
 

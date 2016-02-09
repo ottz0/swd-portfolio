@@ -12,19 +12,6 @@
 
                  <!-- Work Thumbs-->
                 <div id="work-thumb-group" class="uk-grid uk-grid-width-1-2 uk-grid-width-small-1-2 uk-grid-width-medium-1-3 uk-container-center" data-uk-grid-margin="">
-                    <!-- Work ach-->
-                    <div class="work-group">
-                        <figure class="swd-work-fig uk-overlay uk-overlay-hover">          
-                            <img src="assets/img/work-ach.gif" alt="Image" class="work-img">
-                            <div class="uk-overlay-panel uk-overlay-fade uk-overlay-background uk-text-center">
-                                <h3>Australian Cheap Hotels</h3>
-                                <p>Project - Website</p>
-                                <button class="uk-button uk-button-primary">View project</button>
-                            </div>
-                            <a class="uk-position-cover" href="http://portfolio.stevenwatsondesigns.com" target="_blank"></a>
-                        </figure>
-                    </div><!-- //Work ach-->
-                    
                     <!-- Work Ren-->
                     <div class="work-group">
                         <figure class="swd-work-fig uk-overlay uk-overlay-hover">          
@@ -34,9 +21,22 @@
                                 <p>Project - Website</p>
                                 <button class="uk-button uk-button-primary">View project</button>
                             </div>
-                            <a class="uk-position-cover" href="http://portfolio.stevenwatsondesigns.com/renfrew.php" target="_blank"></a>
+                            <a class="uk-position-cover" href="http://portfolio.stevenwatsondesigns.com/index.php" target="_blank"></a>
                         </figure>
                     </div><!-- //Work ren-->
+
+                    <!-- Work ach-->
+                    <div class="work-group">
+                        <figure class="swd-work-fig uk-overlay uk-overlay-hover">          
+                            <img src="assets/img/work-ach.gif" alt="Image" class="work-img">
+                            <div class="uk-overlay-panel uk-overlay-fade uk-overlay-background uk-text-center">
+                                <h3>Australian Cheap Hotels</h3>
+                                <p>Project - Website</p>
+                                <button class="uk-button uk-button-primary">View project</button>
+                            </div>
+                            <a class="uk-position-cover" href="http://portfolio.stevenwatsondesigns.com/ach.php" target="_blank"></a>
+                        </figure>
+                    </div><!-- //Work ach-->
 
                     <!-- Work lsl-->
                     <div class="work-group">
@@ -49,7 +49,7 @@
                             </div>
                             <a class="uk-position-cover" href="http://portfolio.stevenwatsondesigns.com/coallslcorp.php" target="_blank"></a>
                         </figure>
-                    </div><!-- //Work lsl-->
+                    </div><!-- //Work lsl-->        
 
                     <!-- Work ac-->
                     <div class="work-group">
